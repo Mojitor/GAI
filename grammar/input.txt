@@ -1,0 +1,12 @@
+include "xxx";
+
+interface IHost
+{
+    void func1(int a,int b);
+    Data func2(int a);
+}
+
+struct Data
+{
+    int[] a; //注释
+}

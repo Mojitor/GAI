@@ -1,0 +1,16 @@
+include "dsdf";
+
+interface IHost
+{
+    int func(ns.int[] a);
+}
+
+struct Data
+{
+    uint[] x;
+}
+
+enum xx
+{
+    a = 1
+}
